@@ -1,7 +1,7 @@
 [project]
 name = "todo-agent"
 version = "0.1.0"
-description = "Add your description here"
+git commit -m "Added environment configuration with Gemini API key"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
