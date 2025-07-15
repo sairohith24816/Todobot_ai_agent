@@ -105,7 +105,7 @@ Tools are executed through LangGraph's ToolNode, which automatically:
 1. Clone the repository:
 ```bash
 git clone <repository-url>
-cd snello_rohit
+cd Todobot_ai_agent
 ```
 
 2. Install dependencies:
@@ -138,8 +138,8 @@ uv run uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 
 ### Basic Conversation
 ```
-User: Hello, I'm John
-TodoBot: Hello John! I'm TodoBot, your AI assistant for managing todos. How can I help you today?
+User: Hello, I'm Rohith
+TodoBot: Hello Rohith! I'm TodoBot, your AI assistant for managing todos. How can I help you today?
 
 User: I need to add a task
 TodoBot: I'd be happy to help you add a task! What would you like to add to your todo list?
@@ -204,7 +204,7 @@ TodoBot: Here are your todo statistics: 5 total, 3 completed, 2 pending. You're 
 ## Project Structure
 
 ```
-snello_rohit/
+Todobot_ai_agent/
 ├── app/
 │   ├── __init__.py
 │   ├── main.py                    # FastAPI app setup
