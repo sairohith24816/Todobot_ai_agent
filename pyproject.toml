@@ -1,7 +1,7 @@
 [project]
 name = "todo-agent"
 version = "0.1.0"
-git commit -m "Added environment configuration with Gemini API key"
+description = "AI-powered todo assistant built with LangGraph, Gemini AI, and FastAPI featuring conversational task management, persistent memory, and agentic architecture"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
